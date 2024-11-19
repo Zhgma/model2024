@@ -1,0 +1,11 @@
+estar服务器
+项目路径：/mnt/data/Xia/model2024/
+环境：conda activate detection (mmdetection的版本是2.25.2)
+
+去噪输入图像：/mnt/data/Xia/model2024/test/denoise/
+分割输入图像：/mnt/data/Xia/model2024/test/20240329/*.A1.png
+输出分析结果：/mnt/data/Xia/model2024/test/20240329/*.D.png
+
+项目功能：实现染色体去噪、分割、识别、排列全流程的分析工作，测试环节分为两步：
+第一步去噪：python test_denoise.py
+第二步分割与识别：python test_mask.py
